@@ -11,6 +11,16 @@ public class Traversing2DArrays
                         {"out", "shine"} }; 
                        
     /* your code here */
+    for (String[] row : board)
+    {
+      /*System.out.println(row);*/
+      /*modifying col does not affect the board array */
+      for (String col : row)
+      {
+        System.out.print(col + "\t");
+      }
+      System.out.println();
+    }
   
   }
 }
